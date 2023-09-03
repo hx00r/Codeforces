@@ -1,0 +1,1 @@
+import math;a,b,c,d=map(int, input().split());print('YES'if math.log(a)*b>math.log(c)*d else'NO')

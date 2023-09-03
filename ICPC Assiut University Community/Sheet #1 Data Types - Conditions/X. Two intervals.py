@@ -1,0 +1,5 @@
+interval = input("").split(" ")
+a = int(interval[0]) if int(interval[0]) > int(interval[2]) else int(interval[2])
+b = int(interval[1]) if int(interval[1]) < int(interval[3]) else int(interval[3])
+if a <= b: print(a, b) 
+else: print(-1)
