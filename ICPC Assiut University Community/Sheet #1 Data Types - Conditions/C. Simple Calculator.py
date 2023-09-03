@@ -1,0 +1,5 @@
+inp = input("")
+nums = inp.split(" ")
+print(f"{nums[0]} + {nums[1]} = {int(nums[0]) + int(nums[1])}")
+print(f"{nums[0]} * {nums[1]} = {int(nums[0]) * int(nums[1])}")
+print(f"{nums[0]} - {nums[1]} = {int(nums[0]) - int(nums[1])}")
