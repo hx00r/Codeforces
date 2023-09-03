@@ -1,0 +1,1 @@
+a,b,k=map(int,input().split());print('Both'if a%k==0 and b%k==0 else('Memo'if a%k==0 else('Momo'if b%k==0 else'No One')))

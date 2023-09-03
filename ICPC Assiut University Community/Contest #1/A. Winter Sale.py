@@ -1,0 +1,1 @@
+x,p=map(float,input().split());print(round(p/(1-x/100),2))
